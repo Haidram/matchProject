@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.textbox {
+  padding-left: 5px;
+  background-color: red;
+  color: white;
+  margin-top: 0px;;
+}
+
+.select1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+}
+
+.button2 {
+  border: 1px solid red;
+  background-color: red;
+  height: 25px;
+  width: 80px;
+  text-align: center;
+  color: white;
+  margin-top: 280px;
+  margin-left: 120px;
+  border: 1px solid gainsboro;
+  position: absolute;
+}
+
+.button1 {
+  border: 1px solid red;
+  background-color: red;
+  height: 25px;
+  width: 80px;
+  text-align: center;
+  color: white;
+  margin-top: 280px;
+  margin-left: 35px;
+  border: 1px solid gainsboro;
+  position: absolute;
+}
+
+.formContainer {
+  margin-top: 30px;
+  border: 1px solid gainsboro;
+  width: 500px;
+  height: 400px;
+}
+
+table {
+  margin-left: -230px;
+  width: 1000px;
+}
+
+table, th, td {
+  border: 1px solid gainsboro;
+  border-collapse: collapse;
+}
+
+tb, th {
+  padding: 5px;
+}
+
+th {
+  background-color: red;
+  color: white;
+}
+
+.starttime {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -220px;
+  border: 1px solid gainsboro;
+}
+
+.endtime {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 10px;
+  border: 1px solid gainsboro;
+}
+
+.location {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -220px;
+  border: 1px solid gainsboro;
+}
+
+.tournament {
+  position: absolute;
+  margin-top: 90px;
+  margin-left: -220px;
+  border: 1px solid gainsboro;
+}
+
+.comments {
+  position: absolute;
+  border: 1px solid gainsboro; 
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.header {
+  border: 1px solid gainsboro;
+  background-color: red;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.teamName1 {
+  border: 1px solid gainsboro;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -220px;
+}
+
+.teamName2 {
+  border: 1px solid gainsboro;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: -220px;
+}
+
+.team1 {
+  border: 1px solid gainsboro;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.team2 {
+  border: 1px solid gainsboro;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.leftLine {
+  color: gainsboro;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.vs {
+  color: gainsboro;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 245px;
+}
+
+.rightLine {
+  color: gainsboro;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 300px;
+}
